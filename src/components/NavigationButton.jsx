@@ -6,7 +6,6 @@ const NavigationButton = (props) => {
     <>
     <div className={CSS.button_container}>
       <Link className={CSS.button} to={props.to}>{props.text}</Link>
-      {/*<div className={CSS.button_underline}></div>*/}
     </div>
     </>
   )
