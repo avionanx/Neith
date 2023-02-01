@@ -1,0 +1,9 @@
+.main_container{
+    padding: 1rem 2rem;
+    height: calc(100vh - 7rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}

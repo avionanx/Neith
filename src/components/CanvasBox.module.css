@@ -1,0 +1,19 @@
+.main_ctn{
+    width:20rem;
+    height: 20rem;
+    background-color: #e3dec5;
+    padding: 0.5rem;
+}
+.canvas_ctn{
+    height: 20rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desc_ctn{
+    width: 20rem;
+    padding: 0.5rem;
+    background-color: #e3dec5;
+    box-shadow: rgba(72,69,60, 1) 0px 3px;
+}   

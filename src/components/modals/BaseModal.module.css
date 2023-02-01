@@ -1,0 +1,28 @@
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+}
+.modal_content{
+    height: 75%;
+    width: 75%;
+    padding: 1rem;
+    background: repeating-linear-gradient(45deg,var(--bg2-clr) 0px, var(--bg2-clr) 2px, transparent 2px, transparent 6px),
+    var(--bg-clr) 
+    repeating-linear-gradient(135deg, var(--bg2-clr) 0px, var(--bg2-clr) 2px, transparent 2px, transparent 6px);
+    animation: modal-anim 10s linear infinite;
+  }
+@keyframes modal-anim{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x:45px ;
+    }
+}

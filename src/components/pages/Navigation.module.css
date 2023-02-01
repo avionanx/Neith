@@ -1,0 +1,22 @@
+.main_ctn{
+    padding: 1rem;
+    
+}
+.logo{
+    font-size: 3rem;
+    text-transform: uppercase;
+    width: auto;
+    text-shadow: rgba(0,0,0,.15) 5px 5px 1px ;
+}
+.main_ctn ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.navigation_ctn{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 4rem;
+}
