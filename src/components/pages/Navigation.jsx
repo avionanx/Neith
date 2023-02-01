@@ -7,6 +7,8 @@ import BaseModal from '../modals/BaseModal';
 */
 import CSS from './Navigation.module.css'
 import loadable from '@loadable/component';
+import ImageBox from '../ImageBox';
+import { LinearToneMapping } from 'three';
 const CanvasBox = loadable(()=>import('../CanvasBox'));
 const NavigationButton = loadable(()=>import('../NavigationButton'));
 const BaseModal = loadable(()=>import('../modals/BaseModal'));
@@ -23,7 +25,7 @@ const Navigation = () => {
             text={<><p style={{display:"inline"}}>{'The moon, also heres a sick inline modal '}</p> <BaseModal text="button"/></>}
             filePath='../Moon.gltf'
             />
-            
+            <ImageBox filePath='../fourpixels.png' text={"lorem ipsum stuff"}/>
           </ul>
         </div>
     </div>

@@ -20,11 +20,3 @@
     background-position: left;
     margin-bottom: 0px;
 }
-.button_underline{
-    margin-top: 2px;
-    background: linear-gradient(transparent 50%,rgba(72,69,60, 0.8) 50%) right;
-    background-size: 200%;
-    width: inherit;
-    height: 4px;
-    
-}

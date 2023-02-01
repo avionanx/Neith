@@ -11,7 +11,7 @@ const BaseModal = (props) => {
         <p>Title</p>
         <p>Some text</p>
         <TextContent/>
-        <button onClick={()=>setModalState((p)=>!p)}>Close</button>
+        <button className={CSS.close_button} onClick={()=>setModalState((p)=>!p)}>Return</button>
       </div>
     </div>
 }

@@ -11,7 +11,6 @@ const TextContent = () => {
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nemo sint quam laborum voluptatum dolores sed magni nihil reiciendis nam. Sequi in perspiciatis eius voluptatem reprehenderit non excepturi! Optio, mollitia?
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nemo sint quam laborum voluptatum dolores sed magni nihil reiciendis nam. Sequi in perspiciatis eius voluptatem reprehenderit non excepturi! Optio, mollitia?
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nemo sint quam laborum voluptatum dolores sed magni nihil reiciendis nam. Sequi in perspiciatis eius voluptatem reprehenderit non excepturi! Optio, mollitia?
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nemo sint quam laborum voluptatum dolores sed magni nihil reiciendis nam. Sequi in perspiciatis eius voluptatem reprehenderit non excepturi! Optio, mollitia?
     </div>
   )
 }

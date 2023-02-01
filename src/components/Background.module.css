@@ -1,0 +1,20 @@
+.background{
+    z-index: -999;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: repeating-linear-gradient(var(--bg2-clr) 0px, var(--bg2-clr) 2px, transparent 2px, transparent 6px),
+     var(--bg-clr) 
+     repeating-linear-gradient(90deg, var(--bg2-clr) 0px, var(--bg2-clr) 2px, transparent 2px, transparent 6px)
+    ;
+    color:var(--prim-clr);
+    animation: background-anim 10s linear infinite;
+} 
+@keyframes background-anim{
+    0%{
+        background-position-y: 0px;
+    }
+    100%{
+        background-position-y: -60px;
+    }
+}
