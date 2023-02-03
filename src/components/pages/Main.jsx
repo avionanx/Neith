@@ -1,6 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Navigation from './Navigation'
 import CSS from './Main.module.css'
 import NavigationButton from '../NavigationButton'
 const Main = () => {

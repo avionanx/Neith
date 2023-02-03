@@ -1,17 +1,12 @@
 import React, {lazy} from 'react'
 import { Link } from 'react-router-dom'
-/*
-import CanvasBox from '../CanvasBox';
-import NavigationButton from '../NavigationButton';
-import BaseModal from '../modals/BaseModal';
-*/
 import CSS from './Navigation.module.css'
 import loadable from '@loadable/component';
-import ImageBox from '../ImageBox';
 import { LinearToneMapping } from 'three';
-const CanvasBox = loadable(()=>import('../CanvasBox'));
+const CanvasBox = loadable(()=>import('../CanvasBox'),{fallback:<p>Loading 3D object, please standby.</p>});
 const NavigationButton = loadable(()=>import('../NavigationButton'));
 const BaseModal = loadable(()=>import('../modals/BaseModal'));
+const ImageBox = loadable(()=>import('../ImageBox'),{fallback:<p>Loading image, please standby.</p>});
 const Navigation = () => {
   return (
     <div className={CSS.main_ctn}>

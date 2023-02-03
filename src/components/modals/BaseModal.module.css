@@ -32,9 +32,11 @@
     position:absolute;
     bottom: 1rem;
     left:1rem;
+    cursor: pointer;
 }
 .close_button:hover{
     color:#dfdbc5;
     background-position: left;
     margin-bottom: 0px;
 }
+

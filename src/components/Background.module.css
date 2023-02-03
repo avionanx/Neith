@@ -7,7 +7,6 @@
      var(--bg-clr) 
      repeating-linear-gradient(90deg, var(--bg2-clr) 0px, var(--bg2-clr) 2px, transparent 2px, transparent 6px)
     ;
-    color:var(--prim-clr);
     animation: background-anim 10s linear infinite;
 } 
 @keyframes background-anim{
