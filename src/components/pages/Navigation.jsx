@@ -10,7 +10,7 @@ const ImageBox = loadable(()=>import('../ImageBox'),{fallback:<p>Loading image, 
 const Navigation = () => {
   return (
     <div className={CSS.main_ctn}>
-        <p className={CSS.logo}>Neith 1.8.1</p>
+        <p className={CSS.logo}>Navigation</p>
         <div className={CSS.navigation_ctn}>
           <ul>
             <li><NavigationButton to="/about" text="About" /></li>
