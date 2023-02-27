@@ -8,7 +8,8 @@ pnpm-debug.log*
 lerna-debug.log*
 
 **/.firebase
-**/.firebaserc
+.firebaserc
+firebase.json
 
 node_modules
 dist
