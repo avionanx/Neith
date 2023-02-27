@@ -1,0 +1,15 @@
+.main{
+    padding: 1rem;
+}
+.foundation_ctn{
+    margin: 1rem 0 1rem 0;
+    height: 80vh;
+    background-color: rgba(0,0,0,0.5);
+}
+.logo{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    width: auto;
+    text-shadow: rgba(0,0,0,.15) 5px 5px 1px ;
+
+}

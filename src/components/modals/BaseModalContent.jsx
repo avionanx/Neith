@@ -6,7 +6,7 @@ const BaseModalContent = (props ) => {
     <>
     <p className={CSS.title}>{props.title?props.title:"Default Title"}</p>
     <p>There will be custom modal content and CSS here.</p>
-    <ImageBox width={"200px"} filePath={'/suzanne.png'} text={'God himself.'}/>
+    <ImageBox width={"200px"} filePath={'/placeholder.svg'} text={'placeholder text'}/>
     </>
   )
 }

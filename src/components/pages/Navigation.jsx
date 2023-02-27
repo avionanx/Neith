@@ -7,6 +7,7 @@ const CanvasBox = loadable(()=>import('../CanvasBox'),{fallback:<p>Loading 3D ob
 const NavigationButton = loadable(()=>import('../NavigationButton'));
 const BaseModal = loadable(()=>import('../modals/BaseModal'));
 const ImageBox = loadable(()=>import('../ImageBox'),{fallback:<p>Loading image, please standby.</p>});
+const Clock = loadable(()=>import('../Clock'));
 const Navigation = () => {
   return (
     <div className={CSS.main_ctn}>
@@ -17,10 +18,11 @@ const Navigation = () => {
             <li><NavigationButton to="/solaris" text="Solaris" /></li>
             <li><NavigationButton to="/foundation" text="Foundation" /></li>
             <CanvasBox 
-            text={<><p style={{display:"inline"}}>{'The moon, also heres a sick inline modal '}</p> <BaseModal text="button"/></>}
+            text={<><p style={{display:"inline"}}>{'Moon. '}</p> <BaseModal text="button"/></>}
             filePath='../Moon.gltf'
             />
-            <ImageBox filePath='../fourpixels.png' text={"lorem ipsum stuff"}/>
+            <ImageBox filePath='../placeholder.svg' text={"Placeholder text"}/>
+            <Clock/>
           </ul>
         </div>
     </div>
